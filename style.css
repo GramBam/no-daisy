@@ -168,6 +168,17 @@ h2 {
   color: #000;
 }
 
+.modal-body p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+@media(max-width:417px) {
+  .modal-body p {
+    font-size: 13px;
+  }
+}
+
 .modal-footer {
   padding: 2px 16px;
   background-color: #5cb85c;
