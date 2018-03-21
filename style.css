@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Mogra');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 * {
   margin: 0;
@@ -6,7 +7,7 @@
 }
 
 body {
-  font-family: 'Tahoma', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #666;
   font-size: 16px;
   background: #f9f9f9;
@@ -73,11 +74,13 @@ h2 {
   font-size: 120%;
   border-bottom: 1px #ddd solid;
   cursor: pointer;
+  font-family: 'Tahoma', sans-serif;
 }
 
 .faq li.a {
   background: #ddd;
   display: none;
+
 }
 
 .rotate {
@@ -175,6 +178,7 @@ h2 {
 .modal-body p {
   padding: 10px;
   font-size: 16px;
+  font-family: sans-serif;
 }
 
 @media(max-width:417px) {
@@ -198,7 +202,7 @@ h2 {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .button:hover {
